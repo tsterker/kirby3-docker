@@ -1,5 +1,6 @@
 # Project files
 # ------------
+.env
 /kirby
 /vendor
 
