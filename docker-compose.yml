@@ -9,3 +9,13 @@ services:
       - .:/app  # Mount local files into container for changes to be reflected during development
     ports:
       - "8000:80"  # Expose port 8080 on host
+
+  db:
+    image: mysql:5.7
+    environment:
+      MYSQL_DATABASE: database
+      MYSQL_ROOT_PASSWORD: ""
+      MYSQL_ALLOW_EMPTY_PASSWORD: "true"
+    ports:
+      - "3306:3306"  # Expose port 8080 on host
+    command: ['mysqld', '--character-set-server=utf8mb4', '--collation-server=utf8mb4_unicode_ci']

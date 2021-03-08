@@ -1,6 +1,7 @@
 # Project files
 # ------------
 .env
+database/database.sqlite
 /kirby
 /vendor
 
