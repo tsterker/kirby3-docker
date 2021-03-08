@@ -1,0 +1,4 @@
+/.idea
+/kirby
+composer.lock
+.DS_Store

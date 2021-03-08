@@ -20,7 +20,8 @@
     "require": {
         "php": ">=7.1.0",
         "getkirby/cms": "^3.0",
-        "bnomei/kirby3-dotenv": "^1.2"
+        "beebmx/kirby-db": "^1.0",
+        "beebmx/kirby-env": "^2.0"
     },
     "scripts": {
         "start": [
